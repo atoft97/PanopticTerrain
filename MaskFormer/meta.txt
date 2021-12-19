@@ -1,0 +1,18 @@
+    MetadataCatalog.get("coco_2017_train_panoptic").set(stuff_classes=['Person', 'Sky', 'Dirtroad', 'Vehicle', 'Forrest', 'CameraEdge', 'Bush', 'Puddle', 'Large_stone', 'Grass', 'Gravel', 'Tree', 'Building'])
+    MetadataCatalog.get("coco_2017_train_panoptic").set(stuff_colors=[[255, 38, 38], [15, 171, 255], [191, 140, 0], [150, 0, 191], [46, 153, 0], [70, 70, 70], [232, 227, 81], [255, 179, 0], [200, 200, 200], [64, 255, 38], [180, 180, 180], [118, 255, 99], [255, 20, 20]])
+    MetadataCatalog.get("coco_2017_train_panoptic").set(stuff_dataset_id_to_contiguous_id={8: 1, 7: 2, 1: 4, 2: 5, 5: 6, 10: 9, 11: 10})
+
+
+    MetadataCatalog.get("coco_2017_train_panoptic").set(thing_classes=['Person', 'Sky', 'Dirtroad', 'Vehicle', 'Forrest', 'CameraEdge', 'Bush', 'Puddle', 'Large_stone', 'Grass', 'Gravel', 'Tree', 'Building'])
+    MetadataCatalog.get("coco_2017_train_panoptic").set(thing_colors=[[255, 38, 38], [15, 171, 255], [191, 140, 0], [150, 0, 191], [46, 153, 0], [70, 70, 70], [232, 227, 81], [255, 179, 0], [200, 200, 200], [64, 255, 38], [180, 180, 180], [118, 255, 99], [255, 20, 20]])
+    MetadataCatalog.get("coco_2017_train_panoptic").set(thing_dataset_id_to_contiguous_id={4: 0, 3: 3, 6: 7, 9: 8, 12: 11, 13: 12})
+
+
+    MetadataCatalog.get("coco_2017_val_panoptic").set(stuff_classes=['Person', 'Sky', 'Dirtroad', 'Vehicle', 'Forrest', 'CameraEdge', 'Bush', 'Puddle', 'Large_stone', 'Grass', 'Gravel', 'Tree', 'Building'])
+    MetadataCatalog.get("coco_2017_val_panoptic").set(stuff_colors=[[255, 38, 38], [15, 171, 255], [191, 140, 0], [150, 0, 191], [46, 153, 0], [70, 70, 70], [232, 227, 81], [255, 179, 0], [200, 200, 200], [64, 255, 38], [180, 180, 180], [118, 255, 99], [255, 20, 20]])
+    MetadataCatalog.get("coco_2017_val_panoptic").set(stuff_dataset_id_to_contiguous_id={8: 1, 7: 2, 1: 4, 2: 5, 5: 6, 10: 9, 11: 10})
+
+
+    MetadataCatalog.get("coco_2017_val_panoptic").set(thing_classes=['Person', 'Sky', 'Dirtroad', 'Vehicle', 'Forrest', 'CameraEdge', 'Bush', 'Puddle', 'Large_stone', 'Grass', 'Gravel', 'Tree', 'Building'])
+    MetadataCatalog.get("coco_2017_val_panoptic").set(thing_colors=[[255, 38, 38], [15, 171, 255], [191, 140, 0], [150, 0, 191], [46, 153, 0], [70, 70, 70], [232, 227, 81], [255, 179, 0], [200, 200, 200], [64, 255, 38], [180, 180, 180], [118, 255, 99], [255, 20, 20]])
+    MetadataCatalog.get("coco_2017_val_panoptic").set(thing_dataset_id_to_contiguous_id={4: 0, 3: 3, 6: 7, 9: 8, 12: 11, 13: 12})
